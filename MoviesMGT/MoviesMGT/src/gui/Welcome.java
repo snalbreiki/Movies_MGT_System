@@ -157,7 +157,6 @@ public class Welcome extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
 
             public void run() {
-                JOptionPane.showMessageDialog(null,"Please fill in all the required fields.","error",JOptionPane.ERROR_MESSAGE);
                 new Welcome().setVisible(true);
             }
         });
