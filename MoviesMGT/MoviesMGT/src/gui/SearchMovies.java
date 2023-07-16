@@ -302,7 +302,7 @@ public class SearchMovies extends javax.swing.JFrame {
             new AdminMenu().setVisible(true);
         } else {
             this.dispose();
-            new Welcome().setVisible(true);
+            new WelcomePanel ().setVisible(true);
         }
 
 
